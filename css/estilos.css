@@ -1,3 +1,54 @@
+/*
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('fonts/OpenSans-Regular-webfont.eot');
+    src: url('fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+
+@font-face {
+	font-family: 'icons';
+	src:url('icons/icons.eot?mw7kwm');
+	src:url('icons/icons.eot?mw7kwm#iefix') format('embedded-opentype'),
+		url('icons/icons.ttf?mw7kwm') format('truetype'),
+		url('icons/icons.woff?mw7kwm') format('woff'),
+		url('icons/icons.svg?mw7kwm#icons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow_up:before {
+	content: "\e900";
+}
+.icon-arrow_down:before {
+	content: "\e901";
+}
+.icon-pen:before {
+	content: "\e902";
+}
+.icon-star:before {
+	content: "\e903";
+}
+
 a {
 	color: #dc522c;
 	text-decoration: none;
@@ -6,7 +57,7 @@ a {
 body {
 
 	background: #efefef;
-	font-family: Arial;
+	font-family: "Open Sans"; /*Importar desde Google*/
 	font-size: 16px;
 }
 
@@ -196,12 +247,12 @@ nav ul li a {
 	
 	background: white;
 	border-radius: 0 0 0.5em 0.5em;
-	left: 5%;
+	left: 1%;
 	margin-top: 3px;
 	padding: 0.2em 0.5em;
 	position: absolute; 
 	top: 100%;
-	width: 90%;
+	width: 95%;
 }
 
 #contenido .item .votacion .comentarios_item,
