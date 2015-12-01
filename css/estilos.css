@@ -41,18 +41,25 @@
 	font-size: 2em;
 	line-height: 0.5em;
 	vertical-align: middle;
+	color: #2fb966;
 }
 .icon-arrow_down:before {
 	content: "\e901";
 	font-size: 2em;
 	line-height: 0.5em;
 	vertical-align: middle;
+	color: #dc522c;
 }
 .icon-pen:before {
 	content: "\e902";
+	margin-right: 0.7em;
 }
 .icon-star:before {
 	content: "\e903";
+    color: #ffbd31;
+    margin-right: 0.5em;
+    position: relative;
+    top: 0.1em;
 }
 
 a {
@@ -141,7 +148,8 @@ header #logo img {
 nav {
  
 	background: #838383;
-	padding: 0 0.5em;
+	box-shadow: rgba(0,0,0,0.5) 0px 0px 10px;
+	padding: 0 5em 0 0;
 	position: relative;
 }
 
